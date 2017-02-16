@@ -547,6 +547,7 @@ input:checked + .slider:before {
 	padding: 10px;
 	background-color: #7cc576 !important;
 	width: 100%;
+  color: #FFF;
 }
 
 .price_table {
@@ -845,7 +846,7 @@ a:hover, a:H {
 .mainHeader ul li {
   float: left;
   display: inline;
-margin: 0 3px 0;
+  margin: 0 3px 0;
 }
 
 .custom-bg{background: none !important; border: none !important; margin-bottom:5px !important; margin-top:5px !important;}
@@ -1524,6 +1525,8 @@ float:left;
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+
+
 }
 
 .intro {
@@ -1571,6 +1574,8 @@ float:left;
    position:absolute;*/
 }
 
+
+
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -1582,6 +1587,16 @@ float:left;
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
+
+
+/*.navbar-form { hides searchbar on nav when size reduced
+    display: none;
+  }
+
+  .navbar-collapse{
+    margin-left: 9%;
+  }*/
+
 }
 
 @media (max-width: 991px) {
@@ -1709,6 +1724,8 @@ float:left;
   .about-box {
     margin: 10px 0;
   }
+
+
 }
 
 @media (min-width: 767px) {
