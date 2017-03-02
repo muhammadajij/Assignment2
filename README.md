@@ -12,7 +12,7 @@ The website produced is a e-commerce website who would supply other comapnies su
 Please click the below links to view details of the different constructred designs of the website.
 
 1. [Initial Designs](WireFrame-Sketches/Style-1/Style-1.md)
-2. [Final Designs](WireFrame-Sketches/Style-1/Style-2.md)
+2. [Final Designs](WireFrame-Sketches/Style-2/Style-2.md)
 
 
 ## Code Examples
