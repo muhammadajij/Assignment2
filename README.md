@@ -1,5 +1,5 @@
 
-# Assignment 2 - Website Construction
+# Front End Web Development - Assignment 2
 
 The following will introduce the topic the website was built on, covering the designs that were constructed, providing any outstanding coding produced. Then the testing stategy will be covered and what was needed to achieve the objectives. Additional details will also be deliberated such as any webhosting deployment methods.
 
@@ -60,7 +60,7 @@ Add additional notes about how to deploy this on a live system 000webhosting
 
 ## Authors
 
-* **Muhammad Ajij** - *Assignment 2* -
+* **Muhammad Ajij - P13230501 - De Montfort University**
 
 ## Acknowledgments
 
