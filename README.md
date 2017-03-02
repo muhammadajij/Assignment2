@@ -12,11 +12,10 @@ The website produced is a e-commerce website who would supply other comapnies su
 Please click the below links to view details of the different constructred designs of the website.
 
 1. [Initial Designs](WireFrame-Sketches/Style-1/Style-1.md)
-2. [Final Designs]()
+2. [Final Designs](WireFrame-Sketches/Style-1/Style-2.md)
 
 
 ## Code Examples
-
 
 ```
 Give example
@@ -27,7 +26,6 @@ And repeat
 ```
 until finished
 ```
-
 
 ## Testing
 
@@ -62,7 +60,7 @@ Add additional notes about how to deploy this on a live system 000webhosting
 
 ## Authors
 
-* **Muhammad Ajij** - *Assignment 2* - 
+* **Muhammad Ajij** - *Assignment 2* -
 
 ## Acknowledgments
 
