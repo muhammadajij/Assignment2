@@ -28,7 +28,7 @@
                     Themes <i class="fa fa-bars"></i>
                 </button>
 						<a class="navbar-brand page-scroll" href="#page-top">
-							<span class="light" id="livetimes"><i class="fa fa-play-circle"></i><p id="livetimes"></p></span>
+							<span class="light" id="livetimes"><i class="fa fa-play-circle"></i></span>
 						</a>
 					</div>
 					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -80,10 +80,10 @@
 		<div id="mh" class="mainHeader">
 			<div class="container">
 				<!--  Header Section-->
-				<div class="row">
+				<div class="row" id="color">
 					<div class="col-md-3 col-xs-8">
 						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="">
+							<img class="supportlogo2" src="images/s.png" alt="Logo">
 							<a href="index.html" class="land">
 								<p>SUPPORT SOLUTIONS</p>
 							</a>
@@ -122,12 +122,12 @@
 				</div>
 			</div>
 
-			<section id="banner-new" class="top-banner">
+			<section id="banner-new" class="top-banner" onload="autoRun()">
 				<div class="container custom-theme-bg">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slideshowdiv">
-								<img id="slideshow" src="images/supportimage1.jpg" />
+								<img class="slideshow" src="images/tech.jpg" alt="Slideshow" />
 							</div>
 						</div>
 					</div>
@@ -156,11 +156,11 @@
 									<!-- Wrapper for slides -->
 									<div class="carousel-inner" role="listbox">
 										<div class="item active">
-											<img class="img-responsive" src="images/27.jpg" height="500">
+											<img class="img-responsive" src="images/27.jpg" height="500" alt="Image 1">
 
 										</div>
 										<div class="item">
-											<img class="img-responsive" src="images/25.jpg" height="500">
+											<img class="img-responsive" src="images/25.jpg" height="500" alt="Image 2">
 
 										</div>
 
@@ -214,10 +214,10 @@
 							</div>
 
 						</div>
-						<div class="col-sm-3">
+						<div class="col-sm-3" id="franky">
 							<div class="team-members">
 								<div class="team-avatar">
-									<img class="img-responsive" src="images/Frankie-Boyle.png" alt="">
+									<img class="img-responsive" src="images/Frankie-Boyle.png" alt="Frankie-Boyle">
 								</div>
 								<div class="team-desc">
 									<h4>Frankie Boyle</h4>
@@ -225,10 +225,27 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3">
+						<!-- The Modal -->
+						<div id="frankyModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <div class="modal-header">
+						      <span class="close">&times;</span>
+						      <h2>Franky Boyle</h2>
+						    </div>
+						    <div class="modal-body">
+						      <p>Some text in the Modal Body</p>
+						      <p>Some other text...</p>
+						    </div>
+						    
+						  </div>
+
+						</div>
+						<div class="col-sm-3" id="jeremy">
 							<div class="team-members">
 								<div class="team-avatar">
-									<img class="img-responsive" src="images/jermy.png" alt="">
+									<img class="img-responsive" src="images/jermy.png" alt="Jeremy-Clarks">
 								</div>
 								<div class="team-desc">
 									<h4>Jeremy Clarks</h4>
@@ -236,10 +253,27 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3">
+						<!-- The Modal -->
+						<div id="jeremyModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <div class="modal-header">
+						      <span class="close">&times;</span>
+						      <h2>Jeremy Clarks</h2>
+						    </div>
+						    <div class="modal-body">
+						      <p>Some text in the Modal Body</p>
+						      <p>Some other text...</p>
+						    </div>
+						    
+						  </div>
+
+						</div>
+						<div class="col-sm-3" id="peter">
 							<div class="team-members">
 								<div class="team-avatar">
-									<img class="img-responsive" src="images/Peter_Lewis.png" alt="">
+									<img class="img-responsive" src="images/Peter_Lewis.png" alt="Peter-Lewis">
 								</div>
 								<div class="team-desc">
 									<h4>Peter Lewis</h4>
@@ -247,16 +281,52 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-3">
+
+						<!-- The Modal -->
+						<div id="peterModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <div class="modal-header">
+						      <span class="close">&times;</span>
+						      <h2>Peter Lewis</h2>
+						    </div>
+						    <div class="modal-body">
+						      <p>Some text in the Modal Body</p>
+						      <p>Some other text...</p>
+						    </div>
+						    
+						  </div>
+
+						</div>
+						<div class="col-sm-3" id="dave">
 							<div class="team-members">
 								<div class="team-avatar">
-									<img class="img-responsive" src="images/Dave.png" alt="">
+									<img class="img-responsive" src="images/Dave.png" alt="Dave-Thompson">
 								</div>
 								<div class="team-desc">
 									<h4>Dave Thompson</h4>
 									<span>Manager</span>
 								</div>
 							</div>
+						</div>
+
+						<!-- The Modal -->
+						<div id="daveModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <div class="modal-header">
+						      <span class="close">&times;</span>
+						      <h2>Dave Thompson</h2>
+						    </div>
+						    <div class="modal-body">
+						      <p>Some text in the Modal Body</p>
+						      <p>Some other text...</p>
+						    </div>
+						    
+						  </div>
+
 						</div>
 					</div>
 				</div>
@@ -284,7 +354,7 @@
 				<div class="row">
 					<div class="col-md-3 col-xs-8">
 						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="">
+							<img class="supportlogo2" src="images/s.png" alt="Logo 2">
 							<a href="index.html" class="land">
 								<p>SUPPORT SOLUTIONS</p>
 							</a>
@@ -328,7 +398,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slideshowdiv">
-								<img id="slideshow" src="images/supportimage1.jpg" />
+								<img class="slideshow" src="images/tech2.png" alt="Slideshow 2" />
 							</div>
 						</div>
 					</div>
@@ -449,7 +519,7 @@
 				<div class="row">
 					<div class="col-md-3 col-xs-8">
 						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="">
+							<img class="supportlogo2" src="images/s.png" alt="Logo 3">
 							<a href="index.html" class="land">
 								<p>SUPPORT SOLUTIONS</p>
 							</a>
@@ -493,7 +563,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="slideshowdiv">
-								<img id="slideshow" src="images/supportimage1.jpg" />
+								<img class="slideshow" src="images/tech3.jpg" alt="Slideshow 3"/>
 							</div>
 						</div>
 					</div>
@@ -550,7 +620,7 @@
 		</div>
 		
 		<!-- About Section -->
-	</div>
+	
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="js/jquery-3.1.1.min.js"></script>
@@ -561,38 +631,8 @@
     </script>
 	
 	<script src="js/javascript.js"></script>
-	<script>
-		// $(document).ready(function() {
-		// 	$('.custom-cls').click(function() {
-		// 		if ($('this').hasClass('btn-default')) {
-		// 			$('this').removeClass('btn-default');
-
-		// 		} else {
-
-		// 		}
-		// 	});
-		// });
-
-	</script>
-	<!-- <div id="contactbody">
-		<div id="popupdiv">
-			<div id="popupContact">
-				<form action="#" id="cform" method="post" name="form">
-					<a id="close" href="#" onclick="div_hide()"><i class="fa fa-times-circle-o fa-2x white-txt" aria-hidden="true"></i></a>
-					<h2 id="htwo2">Contact Us</h2>
-					<hr>
 
 
-					<input id="name" name="name" placeholder="Please Enter Your First Name" type="text">
-					<input id="sname" name="sname" placeholder="Please Enter Your Last Name" type="text">
-
-					<input id="email" name="email" placeholder="Please Enter Your Email" type="text">
-					<textarea id="msg" name="message" placeholder="How May We Help You?"></textarea>
-					<a href="javascript:%20validateForm()" onclick="myFunction()" id="submit">Send</a>
-				</form>
-			</div>
-		</div>
-	</div> -->
 </body>
 
 </html>
