@@ -420,7 +420,7 @@ color: #fff !important;}
   animation-duration: 2s;
 }
 
-.port > .column {
+.port > .column , .port > .column2{
   padding: 0 8px;
 }
 
@@ -430,7 +430,13 @@ color: #fff !important;}
   clear: both;
 }
 
-.column {
+.column img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+}
+
+.column2 {
   float: left;
   width: 25%;
 }
@@ -544,7 +550,8 @@ column img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.2;
 }
 
 /*portfolio page*/
@@ -658,6 +665,9 @@ column img.hover-shadow {
         padding-left: 2%;
         padding-right: 2%;
         background-color: grey;
+         position: relative;
+  animation-name: banimate;
+  animation-duration: 3s;
       }
 
 
@@ -1016,6 +1026,9 @@ float:left;
   border-radius: 10px;
   font-family: raleway;
   background-color: #fff;
+   position: relative;
+  animation-name: banimate;
+  animation-duration: 3s;
 }
 
 #htwo2 {
@@ -1443,6 +1456,15 @@ display: flex;
     .page-title-new h2::after {
     left: 38.5%;
   }
+  .port-content {
+    margin-top: 45%;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg); /* Standard syntax */
+    width: 100%;
+    height: auto;
+  
+  }
   #Googlemaps {
     display: none;
   }
@@ -1552,6 +1574,7 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
 }
 
 

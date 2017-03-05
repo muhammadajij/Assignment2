@@ -31,7 +31,104 @@
   animation-duration: 2s;
   position: relative;
 }
+/*portfolio*/
 
+#imgs img {
+  /*overlays all the imgs */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  visibility: hidden;
+}
+
+
+/*the container */
+
+#Snav {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* where the circles are going to be*/
+
+#SnavUp {
+  display: block;
+  width: 100%;
+  height: 20%;
+}
+
+#Scircles {
+  display: block;
+  width: 5%;
+  height: 15%;
+  margin-right: 5%;
+  margin-top: 2%;
+  float: right;
+  /* is going to be on the right side of the slider*/
+}
+
+#Scircles ul {
+  margin: 0;
+  float: right;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#Scircles li {
+  list-style: none;
+  display: block;
+  background-color: rgba(0, 0, 0, 1);
+  width: 25%;
+  height: 90%;
+  margin-left: 5%;
+  float: left;
+  /*on the same line*/
+  visibility: hidden;
+  /* circles*/
+  /*border-bottom-left-radius:25px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-right-radius:25px;*/
+}
+
+#SnavMiddle {
+  display: block;
+  width: 100%;
+  height: 15%;
+  margin-top: 10%;
+}
+
+#imgs img {
+  /*overlays all the imgs */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  visibility: hidden;
+}
+
+#carousel-example-generic .carousel-indicators{bottom:10px !important;}
+.topContent,
+  .middleContent,
+  .bottomContent {
+    margin: 5px 0 0;
+  }
+  #sidebar .top-sidebar,
+  #sidebar .middle-sidebar,
+  #sidebar .bottom-sidebar {
+    margin: 5px 0 0;
+  }
 @keyframes scontent {
   0% {
     /*opacity: 0;*/

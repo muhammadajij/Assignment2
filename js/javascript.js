@@ -210,13 +210,11 @@ function initMap() {
 function openModal() {
   document.getElementById("myport").style.display = "block";
   document.getElementById("fix").style.display = "none";
-
 }
 
 function closeModal() {
   document.getElementById("myport").style.display = "none";
   document.getElementById("fix").style.display = "block";
-
 }
 
 var slideIndex = 1;
@@ -241,5 +239,4 @@ function showSlides(n) {
   }
  
   slides[slideIndex-1].style.display = "block";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
