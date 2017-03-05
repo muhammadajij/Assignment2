@@ -385,3 +385,62 @@ a:hover, a:H {
   margin-bottom: 2%;
   visibility: hidden;
 }
+
+.carousel-inner h3 {
+  font-size: 60px;
+}
+
+ #myCarousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.item img {
+  width: 100%;
+  height: 100% !important;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 0;
+  background: #000;
+  margin: 0 !important;
+  height: 8%;
+  bottom: 0;
+  padding: 0 10px;
+  right: 0;
+}
+
+.carousel-control {
+  width: 5% !important;
+  height: 92%;
+}
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.portfolionew .carousel-caption {
+  top: 30%;
+}
+
+.portfolionew .carousel-indicators {
+  bottom: 15%;
+}
+
+.portfolionew .carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  top: 40%;
+}
+
+.btn-default {
+  outline: none;
+}
+

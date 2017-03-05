@@ -446,3 +446,92 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }*/
+
+
+.carousel-inner h3 {
+  font-size: 60px;
+}
+
+.item img {
+  width: 100%;
+  height: 100% !important;
+}
+
+.carousel-caption {
+  text-align: left;
+  left: 0;
+  background: #000;
+  margin: 0 !important;
+  height: 8%;
+  bottom: 0;
+  padding: 0 10px;
+  right: 0;
+}
+
+.carousel-control {
+  width: 5% !important;
+  height: 92%;
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.portfolionew .carousel-caption {
+  top: 30%;
+}
+
+.portfolionew .carousel-indicators {
+  bottom: 15%;
+}
+
+.portfolionew .carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  top: 40%;
+}
+
+.btn-default {
+  outline: none;
+}

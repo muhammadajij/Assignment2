@@ -1,10 +1,4 @@
-
-
-//slideshow home button
-function home() {
-  window.location.href = 'index.html';
-
-}
+<!-- Muhammad Ajij - P13230501 -->
 
 $(document).ready(function(){
 
@@ -14,7 +8,7 @@ $(document).ready(function(){
     $("#slideshow").hide();
     $(".lheader").show();
     $("#cpage").hide();
-
+    $("#portfoliopage").hide();
 
     $(".link").click(function() {
       $("#mh").show();
@@ -30,14 +24,15 @@ $(document).ready(function(){
 	$(".pricing-menu").click(function() {
       $("#ppage").show();
            $("#cpage").hide();
+     $("#portfoliopage").hide();
 
      $("#mh").hide();
-      $(".lheader").hide(1000);
     });
 	
 	$(".home-tab").click(function() {
 		 $("#ppage").hide();
          $("#cpage").hide();
+     $("#portfoliopage").hide();
 
 		$("#mh").show();
 
@@ -46,8 +41,18 @@ $(document).ready(function(){
 	$(".contact-tab").click(function() {
      $("#ppage").hide();
          $("#cpage").show();
+     $("#portfoliopage").hide();
 
     $("#mh").hide();
+
+  });
+
+  $(".portfolio-page").click(function() {
+     $("#ppage").hide();
+     $("#cpage").hide();
+     $("#mh").hide();
+     $("#portfoliopage").show();
+
 
   });
 
@@ -76,6 +81,7 @@ $(document).ready(function() {
       });
     } // End if
   });
+
 
 
 });
@@ -124,7 +130,6 @@ function time() {
   var t = setTimeout(time, 500);
 
 }
-
 
 function checkTime(i) {
   if (i < 10) {
@@ -201,3 +206,40 @@ function initMap() {
           map: map
         });
       }
+
+function openModal() {
+  document.getElementById("myport").style.display = "block";
+  document.getElementById("fix").style.display = "none";
+
+}
+
+function closeModal() {
+  document.getElementById("myport").style.display = "none";
+  document.getElementById("fix").style.display = "block";
+
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+ 
+  slides[slideIndex-1].style.display = "block";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}

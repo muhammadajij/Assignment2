@@ -1,3 +1,9 @@
+//slideshow home button
+function home() {
+  window.location.href = 'index.html';
+
+}
+
 	// $(document).ready(function() {
 		// 	$('.custom-cls').click(function() {
 		// 		if ($('this').hasClass('btn-default')) {

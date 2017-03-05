@@ -1,3 +1,5 @@
+/*Muhammad Ajij - P13230501*/
+
 body {
   background: url(../images/white-bg.jpg) left top repeat;
   /*color: #000305;*/
@@ -75,6 +77,16 @@ h1.hone {
     to {top:0; opacity:1}
 }
 
+@-webkit-keyframes banimate {
+    from {right:-300px; opacity:0} 
+    to {right:0; opacity:1}
+}
+
+@keyframes banimate {
+    from {right:-300px; opacity:0}
+    to {right:0; opacity:1}
+}
+
 /* The Close Button */
 .close {
     color: white;
@@ -139,67 +151,6 @@ h1.hone {
     opacity: 1;
   }
 }
-
-.carousel-inner h3 {
-  font-size: 60px;
-}
-
- #myCarousel {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
-.item img {
-  width: 100%;
-  height: 100% !important;
-}
-
-.carousel-caption {
-  text-align: left;
-  left: 0;
-  background: #000;
-  margin: 0 !important;
-  height: 8%;
-  bottom: 0;
-  padding: 0 10px;
-  right: 0;
-}
-
-.carousel-control {
-  width: 5% !important;
-  height: 92%;
-}
-
-.carousel,
-.item,
-.active {
-  height: 100%;
-}
-
-.carousel-inner {
-  height: 100%;
-}
-
-.portfolionew .carousel-caption {
-  top: 30%;
-}
-
-.portfolionew .carousel-indicators {
-  bottom: 15%;
-}
-
-.portfolionew .carousel-control .icon-prev,
-.carousel-control .icon-next,
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right {
-  top: 40%;
-}
-
-.btn-default {
-  outline: none;
-}
-
-
-/*portfolio carousel*/
 
 .title {
   display: block !important;
@@ -312,6 +263,8 @@ color: #fff !important;}
     overflow: hidden;
     position: relative;
     margin-bottom: 35px;
+    animation-name: banimate;
+    animation-duration: 4s;
 }
 
 .team-members .team-avatar {
@@ -449,6 +402,8 @@ color: #fff !important;}
 	margin: 30px 0 50px;
 	padding: 20px;
 	position: relative;
+  animation-name: animate;
+  animation-duration: 4s;
 }
 
 .about-box:after {
@@ -478,6 +433,142 @@ color: #fff !important;}
 
 /*ABOUT PAGE*/
 
+/*Portfolio PAGE*/
+
+.port {
+  animation-name: banimate;
+  position: relative;
+  animation-duration: 2s;
+}
+
+.port > .column {
+  padding: 0 8px;
+}
+
+.port:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.portfolio {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #fff;
+}
+
+/* Modal Content */
+.port-content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #7cc576;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+column img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+column img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*portfolio page*/
 
 /*pricing table */
 
@@ -839,6 +930,10 @@ margin: 0 3px 0;
 }
 
 #ppage {
+  display: none;
+}
+
+#portfoliopage {
   display: none;
 }
 
@@ -1297,6 +1392,11 @@ float:left;
   #cpage .title a p {
     font-size: 21px;
   }
+
+  #portfoliopage .title a p {
+    font-size: 21px;
+  }
+
   .homepage-menu .navbar-toggle {
     margin: 15px 10px 0 !important;
   }
@@ -1307,6 +1407,15 @@ float:left;
   #ppage .navbar-header {
     background: #7cc576;
   }
+
+  #portfoliopage .title {
+    position: relative;
+    z-index: 9;
+  }
+  #portfoliopage .navbar-header {
+    background: #7cc576;
+  }
+
   .homepage-menu .navbar-toggle {
     margin: 15px 10px 0 !important;
   }
@@ -1398,6 +1507,12 @@ float:left;
     margin-bottom: 0;
     margin-top: 5px;
   }
+
+  #portfoliopage .title {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
   #cpage .title {
     margin-bottom: 0;
     margin-top: 5px;
@@ -1472,6 +1587,13 @@ display: flex;
     margin-top: 13px;
   }
   #mh .title a p {
+    font-size: 14px;
+    margin: 3% 0% 0% 0%;
+  }
+  #portfoliopage .title {
+    margin-top: 13px;
+  }
+  #portfoliopage .title a p {
     font-size: 14px;
     margin: 3% 0% 0% 0%;
   }
