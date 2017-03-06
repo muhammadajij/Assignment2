@@ -1,7 +1,7 @@
 
 # Front End Web Development - Assignment 2
 
-The following will introduce the topic the website was built on, covering the designs that were constructed, providing any outstanding coding produced. Then the testing stategy will be covered and what was needed to achieve the objectives. Additional details will also be deliberated such as any webhosting deployment methods.
+The following will introduce the topic the website was built on, covering the designs that were constructed. Then the testing stategy will be covered and what was needed to achieve the objectives. Additional details will also be deliberated such as any webhosting deployment methods.
 
 ## Introduction
 
@@ -9,56 +9,85 @@ The website produced is a e-commerce website who would supply other comapnies su
 
 ## Designs
 
-Please click the below links to view details of the different constructred designs of the website.
+Please click the below links to view details of the different constructred WireFrame designs of the website.
 
 1. [Initial Designs](WireFrame-Sketches/Style-1/Style-1.md)
 2. [Final Designs](WireFrame-Sketches/Style-2/Style-2.md)
 
+## Source Code
 
-## Code Examples
-
-```
-Give example
-```
-
-And repeat
-
-```
-until finished
-```
+The following will elaborate on one HTML feature used, one CSS feature used and also one Javascript feature used.
 
 ## Testing
 
-Explain how to run the automated tests for the website
+The following will cover the features of the website that were constantly tested
 
 ### Requirements
 
-Explain what is required for these tests test and why
+** Functionality Testing  **
 
-```
-Give an example
-```
+* Links work accordingly
+* Website validate accordingly
+* Error messages appear correctly
+
+** Usability Testing **
+
+* Website should be easy to use
+* Main menu should be provided on each page
+* Content should be logical and easy to understand
+
+** Compatibility Testing **
+
+* Functions on multiple browsers
+* Functions on multiple operating systems
+* Mobile browsing functions accordinly
+* Printing options
+
 
 ### Results
 
-Explain what the test results show and why
+The following is the results for each area tested, please click on the 
 
-```
-Give  example
-```
+| Functionality Testing | Result					  |
+| --------------------- |:---------------------------:|
+|    Test 1  			|  [Fail](http://)  					  |
+|    Test 2 			|  [Fail  ](http://)					  |
+|    Test 3  			|  [Pass](http://)						  |
+
+| Usability Testing			   | Result			     		 |
+| ---------------------------- |:---------------------------:|
+|    Test 1  				   |  [Fail](http://)                     	 |
+|    Test 2                    |  [Fail](http://)                       |
+|    Test 3                    |  [Pass](http://)                       |
+
+
+| Compatability Testing		   | Result			     		 |
+| ---------------------------- |:---------------------------:|
+|    Test 1                    |  [Fail](http://)                       |
+|    Test 2                    |  [Pass](http://)                       |
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system 000webhosting
+In regards to deployement, the website is currently being hosted by 000Webhost. They are a free web hosting company and include free domain hosting, therefore allowing me to host my website on the following url:
 
-## Built With
+[Support Solutions](http://)
 
-* []() - The icons framework used
-* []() - jquery
-* []() - bootsrap
+## References
+
+### Tools
+
+* [Sublime Text](https://www.sublimetext.com) - Used to code HTML, CSS & Javascript aspects of the website.
+* [Pencil Project](http://pencil.evolus.vn) - Used to create the wire
+* [Haroopad](http://pad.haroopress.com/user.html) - Used to create the Readme file along side the Design files.
+
+### Frameworks
+
+* [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar.
+* [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
+* [Bootstrap](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
 
 
-## Authors
+## Author
 
 * **Muhammad Ajij - P13230501 - De Montfort University**
 
