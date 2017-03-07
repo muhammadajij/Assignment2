@@ -35,7 +35,9 @@ The following will elaborate on one HTML feature used, one CSS feature used and 
 
 This is an example of html code that generated a pop up modal box with specific information, it consists of a header and body, in addition a footer could also be implemented but was not needed for this feature of the website.
 
-- - -
+
+
+_ _ _
 
 
 ### CSS
@@ -59,7 +61,8 @@ This is an example of html code that generated a pop up modal box with specific 
 ```
 This is an example of css code allowing sections of the SPA website to be hidden, this led to only the landing page to be visible when loading the website.
 
-- - -
+_ _ _
+
 
 
 ### Javascript
@@ -104,7 +107,8 @@ The details below indicate what must be acheieved by the website design and func
 * Printing options
 
 
-- - -
+
+_ _ _
 
 
 
@@ -153,10 +157,7 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 
 ## Author
 
-**Muhammad Ajij**
-**De Montfort University**
-**P13230501**
-** P13230501@my365.dmu.ac.uk**
+**Muhammad Ajij - P13230501 - De Montfort University - P13230501@my365.dmu.ac.uk**
 
 
 ## Acknowledgments
