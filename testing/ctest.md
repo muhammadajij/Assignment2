@@ -11,6 +11,8 @@ As you can see in the below images the website displasy the same in both safari 
 ##### PC View
 ![](ctest1.png)
 
+_ _ _
+
 ![](ctest1b.png)
 
 ##### Mobile View
@@ -24,6 +26,8 @@ _ _ _
 The following shows that the addition of `@media` coding for different widths allowed the website to alter its layour accordingly to the size of the device. Below is the view of the website when loaded on a Saumsung Galaxy S5.
 
 ![](ctest2.png)
+
+_ _ _
 
 
 [Back](../README.md)
