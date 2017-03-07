@@ -35,7 +35,7 @@ Improvements made for this page will only include the footer, whereby a button w
 
 ## Contact Page
 
-Again only improvement made on this page is the scroll to top button in the footer of the page.
+Again only improvement made on this page is the scroll to top button in the footer of the page. Also flexbox will be used to only show the contact us form when viewed on small device, this will allow the form to be centered.
 
 ![](contact.png)
 *Wireframe design of the improved layout of Contact Page*

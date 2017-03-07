@@ -1,3 +1,4 @@
+
 <!-- Muhammad Ajij - P13230501 -->
 
 <!DOCTYPE html>
@@ -5,781 +6,812 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Support Solutions</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link id="light" rel="stylesheet" href="css/light.css" type="text/css" />
-	
-	<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Support Solutions</title>
+
+    <!-- linking in bootstrap, light, and fontawesome stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link id="light" rel="stylesheet" href="css/light.css" type="text/css" />
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<body  onload="time()" class="body">
-	<div id=animation>
-		<!-- Navigation -->
-		<div class="lheader" id="header">
-			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+<body onload="time()" class="body">
+    <div id=animation>
+
+        <!-- Landing Page -->
+        <div class="lheader" id="header">
+            <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     Themes <i class="fa fa-bars"></i>
                 </button>
-						<a class="navbar-brand page-scroll" href="#page-top">
-							<span class="light" id="livetimes"><i class="fa fa-play-circle"></i></span>
-						</a>
-					</div>
-					<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-						<div class="btn-group btn-toggle">
-							<button onclick="swapStyleSheet('css/light.css')" class="btn btn-md btn-default custom-cls">Light Theme</button>
-							<button onclick="swapStyleSheet('css/dark.css')" class="btn btn-md btn-primary custom-cls active">Dark Theme</button>
-						</div>
-					</div>
-				</div>
-			</nav>
+                        <a class="navbar-brand page-scroll" href="#page-top">
+                            <span class="light" id="livetimes"><i class="fa fa-play-circle"></i></span>
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <div class="btn-group btn-toggle">
+                            <button onclick="swapStyleSheet('css/light.css')" class="btn btn-md btn-default custom-cls">Light Theme</button>
+                            <button onclick="swapStyleSheet('css/dark.css')" class="btn btn-md btn-primary custom-cls active">Dark Theme</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
-			<!-- Intro Header -->
-			<header class="intro">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="lheader" id="header">
-								<div class="sl">
-									<figure class="logo">
-										<div class="supportlogo">
-											<!-- <img class="supportlogo" src="./images/s.png" alt="">	 -->
-										</div>
-									</figure>
-								</div>
+            <!-- Landing Page Header -->
+            <header class="intro">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="lheader" id="header">
+                                <div class="sl">
+                                    <figure class="logo">
+                                        <div class="supportlogo">
+                                            <!-- <img class="supportlogo" src="./images/s.png" alt="">	 -->
+                                        </div>
+                                    </figure>
+                                </div>
 
-								<h1 class="hone">Welcome To Support Solutions</h1>
-								<ul class="we-create">
-									<li>We are a support agency that loves crafting beautiful support related interfaces.</li>
-								</ul>
-								<a href="javascript:void(0);" class="link">Enter Site</a>
-							</div>
+                                <h1 class="hone">Welcome To Support Solutions</h1>
+                                <ul class="we-create">
+                                    <li>We are a support agency that loves crafting beautiful support related interfaces.</li>
+                                </ul>
+                                <!-- Enter site button -->
+                                <a href="javascript:void(0);" class="link">Enter Site</a>
+                            </div>
 
-							<div id="share-buttons">
-								<!-- Facebook -->
-								<a href="http://www.facebook.com/sharer.php?u=http://www.supportsolutions.co.uk" target="_blank">
-									<img src="images/facebook.png" alt="Facebook" />
-								</a>
-								<a href="https://twitter.com/share?url=http://www.supportsolutions.co.uk&amp;text=Support%20Solution%20Applications&amp;hashtags=OneClickSolution" target="_blank">
-									<img src="images/twitter.png" alt="Twitter" />
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
-		</div>
+                            <div id="share-buttons">
+                                <!-- Facebook -->
+                                <a href="http://www.facebook.com/sharer.php?u=http://www.supportsolutions.co.uk" target="_blank">
+                                    <img src="images/facebook.png" alt="Facebook" />
+                                </a>
+                                <!-- Twitter -->
+                                <a href="https://twitter.com/share?url=http://www.supportsolutions.co.uk&amp;text=Support%20Solution%20Applications&amp;hashtags=OneClickSolution" target="_blank">
+                                    <img src="images/twitter.png" alt="Twitter" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
 
+        <!-- Homepage -->
+        <div id="mh" class="mainHeader">
+            <div class="container">
+                <!--  Header Section-->
+                <div class="row" id="color">
+                    <div class="col-md-3 col-xs-8">
+                        <div class="title">
+                            <img class="supportlogo2" src="images/s.png" alt="Logo">
+                            <a href="index.html" class="land">
+                                <p>SUPPORT SOLUTIONS</p>
+                            </a>
+                        </div>
+                    </div>
 
-		<div id="mh" class="mainHeader">
-			<div class="container">
-				<!--  Header Section-->
-				<div class="row" id="color">
-					<div class="col-md-3 col-xs-8">
-						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="Logo">
-							<a href="index.html" class="land">
-								<p>SUPPORT SOLUTIONS</p>
-							</a>
-						</div>
-					</div>
-
-					<div class="col-md-9">
-						<nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse">
+                    <!-- Navigation -->
+                    <div class="col-md-9">
+                        <nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
+                            <!-- Nav bar button when collapsed -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse">
 								  <span class="sr-only">Toggle navigation</span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="demo-navbar-collapse">
-								<ul class="nav navbar-nav">
-									<li class="active"><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
-									<li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
-									<li><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
-									<li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
-								</ul>
+                            </div>
+                            <div class="collapse navbar-collapse" id="demo-navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                                    <li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
+                                    <li><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
+                                    <li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
+                                </ul>
 
-								<form class="navbar-form customnavform navbar-left pull-right" role="search">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search">
-										<span class="input-group-btn">
+                                <form class="navbar-form customnavform navbar-left pull-right" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
 										  <button type="submit" class="btn btn-default custom-search-button">Search</button>     
 										</span>
-									</div>
-								</form>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
 
-			<section id="banner-new" class="top-banner" onload="autoRun()">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slideshowdiv">
-								<img class="slideshow" src="images/tech.jpg" alt="Slideshow" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+            <!-- Header Image -->
+            <section id="banner-new" class="top-banner">
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slideshowdiv">
+                                <img class="slideshow" src="images/tech.jpg" alt="Slideshow" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-			<section class="page-title">
-				<div class="container brdr-btm custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="page-title-new">
-								<h2>About Us</h2>
-								<span>Something About Us</span>
-							</div>
+            <!-- About us -->
+            <section class="page-title">
+                <div class="container brdr-btm custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title-new">
+                                <h2>About Us</h2>
+                                <span>Something About Us</span>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="about-box" class="about-section">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="aboutslider">
-								<div id="myCarousel" class="carousel slide" data-ride="carousel">
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner" role="listbox">
-										<div class="item active">
-											<img class="img-responsive" src="images/27.jpg" height="500" alt="Image 1">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about-box" class="about-section">
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="aboutslider">
+                                <!-- Slideshow -->
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img class="img-responsive" src="images/27.jpg" height="500" alt="Image 1">
 
-										</div>
-										<div class="item">
-											<img class="img-responsive" src="images/25.jpg" height="500" alt="Image 2">
+                                        </div>
+                                        <div class="item">
+                                            <img class="img-responsive" src="images/25.jpg" height="500" alt="Image 2">
 
-										</div>
+                                        </div>
 
-									</div>
+                                    </div>
 
-									<ol class="carousel-indicators">
-										<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-										<li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
 
-									</ol>
-								</div>
-							</div>
-						</div>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
 
-						<div class="col-md-8">
-							<div class="about-content">
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                        <!-- About Information -->
+                        <div class="col-md-8">
+                            <div class="about-content">
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
 
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-							<div class="about-box">
-								<h2>What we do?</h2>
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
-							</div>
-						</div>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-box">
+                                <h2>What we do?</h2>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+                            </div>
+                        </div>
 
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-							<div class="about-box">
-								<h2>Our mission</h2>
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
-							</div>
-						</div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-box">
+                                <h2>Our mission</h2>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+                            </div>
+                        </div>
 
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-							<div class="about-box">
-								<h2>Our Goals</h2>
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
-							</div>
-						</div>
-					</div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="about-box">
+                                <h2>Our Goals</h2>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum.</p>
+                            </div>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-12">
-							<div class="page-title-new">
-								<h2>Our Dynamic Team</h2>
-								<span>Great Experienced Workforce</span>
-							</div>
+                    <!-- Staff Members -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title-new">
+                                <h2>Our Dynamic Team</h2>
+                                <span>Great Experienced Workforce</span>
+                            </div>
 
-						</div>
-						<div class="col-sm-3" id="franky">
-							<div class="team-members">
-								<div class="team-avatar">
-									<img class="img-responsive" src="images/Frankie-Boyle.png" alt="Frankie-Boyle">
-								</div>
-								<div class="team-desc">
-									<h4>Frankie Boyle</h4>
-									<span>Marketing</span>
-								</div>
-							</div>
-						</div>
-						<!-- The Modal -->
-						<div id="frankyModal" class="modal">
+                        </div>
+                        <div class="col-sm-3" id="franky">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-responsive" src="images/Frankie-Boyle.png" alt="Frankie-Boyle">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Frankie Boyle</h4>
+                                    <span>Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The Modal -->
+                        <div id="frankyModal" class="modal">
 
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <div class="modal-header">
-						      <h2>Franky Boyle</h2>
-						    </div>
-						    <div class="modal-body">
-						      <p>Some text in the Modal Body</p>
-						      <p>Some other text...</p>
-						    </div>
-						    
-						  </div>
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2>Franky Boyle</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
 
-						</div>
-						<div class="col-sm-3" id="jeremy">
-							<div class="team-members">
-								<div class="team-avatar">
-									<img class="img-responsive" src="images/jermy.png" alt="Jeremy-Clarks">
-								</div>
-								<div class="team-desc">
-									<h4>Jeremy Clarks</h4>
-									<span>Founder</span>
-								</div>
-							</div>
-						</div>
-						<!-- The Modal -->
-						<div id="jeremyModal" class="modal">
+                            </div>
 
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <div class="modal-header">
-						      <h2>Jeremy Clarks</h2>
-						    </div>
-						    <div class="modal-body">
-						      <p>Some text in the Modal Body</p>
-						      <p>Some other text...</p>
-						    </div>
-						    
-						  </div>
+                        </div>
+                        <div class="col-sm-3" id="jeremy">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-responsive" src="images/jermy.png" alt="Jeremy-Clarks">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Jeremy Clarks</h4>
+                                    <span>Founder</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The Modal -->
+                        <div id="jeremyModal" class="modal">
 
-						</div>
-						<div class="col-sm-3" id="peter">
-							<div class="team-members">
-								<div class="team-avatar">
-									<img class="img-responsive" src="images/Peter_Lewis.png" alt="Peter-Lewis">
-								</div>
-								<div class="team-desc">
-									<h4>Peter Lewis</h4>
-									<span>Director</span>
-								</div>
-							</div>
-						</div>
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2>Jeremy Clarks</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
 
-						<!-- The Modal -->
-						<div id="peterModal" class="modal">
+                            </div>
 
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <div class="modal-header">
-						      <h2>Peter Lewis</h2>
-						    </div>
-						    <div class="modal-body">
-						      <p>Some text in the Modal Body</p>
-						      <p>Some other text...</p>
-						    </div>
-						    
-						  </div>
+                        </div>
+                        <div class="col-sm-3" id="peter">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-responsive" src="images/Peter_Lewis.png" alt="Peter-Lewis">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Peter Lewis</h4>
+                                    <span>Director</span>
+                                </div>
+                            </div>
+                        </div>
 
-						</div>
-						<div class="col-sm-3" id="dave">
-							<div class="team-members">
-								<div class="team-avatar">
-									<img class="img-responsive" src="images/Dave.png" alt="Dave-Thompson">
-								</div>
-								<div class="team-desc">
-									<h4>Dave Thompson</h4>
-									<span>Manager</span>
-								</div>
-							</div>
-						</div>
+                        <!-- The Modal -->
+                        <div id="peterModal" class="modal">
 
-						<!-- The Modal -->
-						<div id="daveModal" class="modal">
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2>Peter Lewis</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
 
-						  <!-- Modal content -->
-						  <div class="modal-content">
-						    <div class="modal-header">
-						      <h2>Dave Thompson</h2>
-						    </div>
-						    <div class="modal-body">
-						      <p>Some text in the Modal Body</p>
-						      <p>Some other text...</p>
-						    </div>
-						    
-						  </div>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
+                        </div>
+                        <div class="col-sm-3" id="dave">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-responsive" src="images/Dave.png" alt="Dave-Thompson">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Dave Thompson</h4>
+                                    <span>Manager</span>
+                                </div>
+                            </div>
+                        </div>
 
-			<footer>
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mainFooter">
-								<p>Copyright &copy; 2017 Muhammad Ajij</p>
-								<a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- About Section -->
-		</div>
+                        <!-- The Modal -->
+                        <div id="daveModal" class="modal">
 
-		<div id="portfoliopage" class="mainHeader">
-			<div class="container custom-theme-bg" id="fix">
-				<!--  Header Section-->
-				<div class="row">
-					<div class="col-md-3 col-xs-8">
-						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="Logo 3">
-							<a href="index.html" class="land">
-								<p>SUPPORT SOLUTIONS</p>
-							</a>
-						</div>
-					</div>
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2>Dave Thompson</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Some text in the Modal Body</p>
+                                    <p>Some other text...</p>
+                                </div>
 
-					<div class="col-md-9">
-						<nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse4">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mainFooter">
+                                <p>Copyright &copy; 2017 Muhammad Ajij</p>
+                                <!-- Scrollback button -->
+                                <a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Portfolio Page -->
+        <div id="portfoliopage" class="mainHeader">
+            <div class="container custom-theme-bg" id="fix">
+                <!--  Header Section-->
+                <div class="row">
+                    <div class="col-md-3 col-xs-8">
+                        <div class="title">
+                            <img class="supportlogo2" src="images/s.png" alt="Logo 3">
+                            <a href="index.html" class="land">
+                                <p>SUPPORT SOLUTIONS</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="col-md-9">
+                        <nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
+                            <!-- Nav bar button when collapsed -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse4">
 								  <span class="sr-only">Toggle navigation</span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="demo-navbar-collapse4">
-								<ul class="nav navbar-nav">
-									<li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
-									<li  class="active"><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
-									<li ><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
-									<li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
-								</ul>
+                            </div>
+                            <div class="collapse navbar-collapse" id="demo-navbar-collapse4">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                                    <li class="active"><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
+                                    <li><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
+                                    <li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
+                                </ul>
 
-								<form class="navbar-form customnavform navbar-left pull-right" role="search">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search">
-										<span class="input-group-btn">
+                                <form class="navbar-form customnavform navbar-left pull-right" role="search">
+                                    <div class="input-group">
+                                        <!-- Searchbar -->
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
 										  <button type="submit" class="btn btn-default custom-search-button">Search</button>     
 										</span>
-									</div>
-								</form>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
 
-			<section id="banner-new" class="top-banner">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slideshowdiv">
-								<img class="slideshow" src="images/tech4.jpg" alt="Slideshow 3"/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+            <!-- Portfolio Header Image -->
+            <section id="banner-new" class="top-banner">
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slideshowdiv">
+                                <img class="slideshow" src="images/tech4.jpg" alt="Slideshow 3" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-			<section class="page-title">
-				<div class="container brdr-btm custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="page-title-new">
-								<h2>Portfolio</h2>
-								<span>Please feel free to browse our gallery</span>
-							</div>
+            <section class="page-title">
+                <div class="container brdr-btm custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title-new">
+                                <h2>Portfolio</h2>
+                                <span>Please feel free to browse our gallery</span>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="portfolio-new" class="portfolio-box">
-				<div class="container custom-theme-bg">
-				<div class="row">
-<div class="port">
-  <div class="column">
-    <img src="images/tech.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/tech2.png"  onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/tech3.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="images/tech4.jpg"  onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-<div id="myport" class="portfolio">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="port-content">
+            <!-- Portfolio Modal -->
+            <section id="portfolio-new" class="portfolio-box">
+                <div class="container custom-theme-bg">
+                    <div class="row">
 
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="images/tech.jpg" style="width:100%">
-    </div>
+                        <!-- Images on page -->
+                        <div class="port">
+                            <div class="column">
+                                <img src="images/tech.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                            </div>
+                            <div class="column">
+                                <img src="images/tech2.png" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                            </div>
+                            <div class="column">
+                                <img src="images/tech3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                            </div>
+                            <div class="column">
+                                <img src="images/tech4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                            </div>
+                        </div>
 
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/tech2.png" style="width:100%">
-    </div>
+                        <!-- Portfolio when opened -->
+                        <div id="myport" class="portfolio">
+                            <span class="close cursor" onclick="closeModal()">&times;</span>
+                            <div class="port-content">
 
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="images/tech3.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="images/tech4.jpg" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                <div class="mySlides">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img src="images/tech.jpg" style="width:100%">
+                                </div>
 
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
+                                <div class="mySlides">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="images/tech2.png" style="width:100%">
+                                </div>
 
-    <div class="column2">
-      <img class="cursor" src="images/tech.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column2">
-      <img class="cursor" src="images/tech2.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column2">
-      <img class="cursor" src="images/tech3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column2">
-      <img class="cursor" src="images/tech4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    
-    </div>
-  </div>
-</div>
-				</div>
-			</section>
+                                <div class="mySlides">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="images/tech3.jpg" style="width:100%">
+                                </div>
 
-			<footer>
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mainFooter">
-								<p>Copyright &copy; 2017 Muhammad Ajij</p>
-								<a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+                                <div class="mySlides">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="images/tech4.jpg" style="width:100%">
+                                </div>
 
-			<!-- About Section -->
-		</div>
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
 
-		<div id="ppage" class="mainHeader">
-			<div class="container custom-theme-bg">
-				<!--  Header Section-->
-				<div class="row">
-					<div class="col-md-3 col-xs-8">
-						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="Logo 2">
-							<a href="index.html" class="land">
-								<p>SUPPORT SOLUTIONS</p>
-							</a>
-						</div>
-					</div>
+                                <div class="column2">
+                                    <img class="cursor" src="images/tech.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                                </div>
+                                <div class="column2">
+                                    <img class="cursor" src="images/tech2.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+                                </div>
+                                <div class="column2">
+                                    <img class="cursor" src="images/tech3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                </div>
+                                <div class="column2">
+                                    <img class="cursor" src="images/tech4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                                </div>
 
-					<div class="col-md-9">
-						<nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mainFooter">
+                                <p>Copyright &copy; 2017 Muhammad Ajij</p>
+                                <a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- Pricing page -->
+        <div id="ppage" class="mainHeader">
+            <div class="container custom-theme-bg">
+                <!--  Header Section-->
+                <div class="row">
+                    <div class="col-md-3 col-xs-8">
+                        <div class="title">
+                            <img class="supportlogo2" src="images/s.png" alt="Logo 2">
+                            <a href="index.html" class="land">
+                                <p>SUPPORT SOLUTIONS</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="col-md-9">
+                        <nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
+                            <!-- Navigation when collapsed -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse1">
 								  <span class="sr-only">Toggle navigation</span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="demo-navbar-collapse1">
-								<ul class="nav navbar-nav">
-									<li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
-									<li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
-									<li class="active"><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
-									<li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
-								</ul>
+                            </div>
+                            <div class="collapse navbar-collapse" id="demo-navbar-collapse1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                                    <li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
+                                    <li class="active"><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
+                                    <li><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
+                                </ul>
 
-								<form class="navbar-form customnavform navbar-left pull-right" role="search">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search">
-										<span class="input-group-btn">
+                                <form class="navbar-form customnavform navbar-left pull-right" role="search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <span class="input-group-btn">
 										  <button type="submit" class="btn btn-default custom-search-button">Search</button>     
 										</span>
-									</div>
-								</form>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
 
-			<section id="banner-new" class="top-banner">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slideshowdiv">
-								<img class="slideshow" src="images/tech2.png" alt="Slideshow 2" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+            <!-- Pricing header image -->
+            <section id="banner-new" class="top-banner">
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="slideshowdiv">
+                                <img class="slideshow" src="images/tech2.png" alt="Slideshow 2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-			<section class="page-title">
-				<div class="container brdr-btm custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="page-title-new">
-								<h2>Pricing</h2>
-								<span>Simple pricing. No Hidden costs.</span>
-							</div>
+            <section class="page-title">
+                <div class="container brdr-btm custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-title-new">
+                                <h2>Pricing</h2>
+                                <span>Simple pricing. No Hidden costs.</span>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="pricing-new" class="pricing-box">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in one">
-							<div class="price_column price_table text-center">
-								<div class="row price_heading">
-									<div class="col-sm-12">
-										<h3>SILVER</h3>
-										<h1><b>£10</b> per Month</h1>
-									</div>
-								</div>
-								<div class="row">
-									<ul class="price_lines text-center">
-										<li class="price_linea">10 Applications</li>
-										<li class="price_lineb">5 Computers</li>
-										<li class="price_linea">1 GB Storage</li>
-										<li class="price_lineb">1 Month Support</li>
-										<li class="price_linea">Unlimited Website Access</li>
-										<li class="price_lineb">5 Databases</li>
-										<li class="price_linea">No Site Installation</li>
-									</ul>
-								</div>
-								<div class="row price_button">
-									<button class="btn btn-default btn-md">SIGN UP</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in two">
-							<div class="price_column price_table text-center">
-								<div class="row price_heading">
-									<div class="col-sm-12">
-										<h3>GOLD</h3>
-										<h1><b>£20</b> per Month</h1>
-									</div>
-								</div>
-								<div class="row">
-									<ul class="price_lines text-center">
-										<li class="price_linea">50 Applications</li>
-										<li class="price_lineb">15 Computers</li>
-										<li class="price_linea">5 GB Storage</li>
-										<li class="price_lineb">5 Month Support</li>
-										<li class="price_linea">Unlimited Website Access</li>
-										<li class="price_lineb">8 Databases</li>
-										<li class="price_linea">No Site Installation</li>
-									</ul>
-								</div>
-								<div class="row price_button">
-									<button class="btn btn-default btn-md">SIGN UP</button>
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in three">
-							<div class="price_column price_table text-center">
-								<div class="row price_heading">
-									<div class="col-sm-12">
-										<h3>PLATINUM</h3>
-										<h1><b>£25</b> per Month</h1>
-									</div>
-								</div>
-								<div class="row">
-									<ul class="price_lines text-center">
-										<li class="price_linea">Unlimited Applications</li>
-										<li class="price_lineb">Unlimited Computers</li>
-										<li class="price_linea">Unlimited GB Storage</li>
-										<li class="price_lineb">Unlimited Month Support</li>
-										<li class="price_linea">Unlimited Website Access</li>
-										<li class="price_lineb">Unlimited Databases</li>
-										<li class="price_linea">Site Installation Included</li>
-									</ul>
-								</div>
-								<div class="row price_button">
-									<button class="btn btn-default btn-md">SIGN UP</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-			<footer>
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mainFooter">
-								<p>Copyright &copy; 2017 Muhammad Ajij</p>
-								<a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+            <!-- Pricing options -->
+            <section id="pricing-new" class="pricing-box">
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in one">
+                            <div class="price_column price_table text-center">
+                                <div class="row price_heading">
+                                    <div class="col-sm-12">
+                                        <h3>SILVER</h3>
+                                        <h1><b>£10</b> per Month</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="price_lines text-center">
+                                        <li class="price_linea">10 Applications</li>
+                                        <li class="price_lineb">5 Computers</li>
+                                        <li class="price_linea">1 GB Storage</li>
+                                        <li class="price_lineb">1 Month Support</li>
+                                        <li class="price_linea">Unlimited Website Access</li>
+                                        <li class="price_lineb">5 Databases</li>
+                                        <li class="price_linea">No Site Installation</li>
+                                    </ul>
+                                </div>
+                                <div class="row price_button">
+                                    <button class="btn btn-default btn-md">SIGN UP</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in two">
+                            <div class="price_column price_table text-center">
+                                <div class="row price_heading">
+                                    <div class="col-sm-12">
+                                        <h3>GOLD</h3>
+                                        <h1><b>£20</b> per Month</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="price_lines text-center">
+                                        <li class="price_linea">50 Applications</li>
+                                        <li class="price_lineb">15 Computers</li>
+                                        <li class="price_linea">5 GB Storage</li>
+                                        <li class="price_lineb">5 Month Support</li>
+                                        <li class="price_linea">Unlimited Website Access</li>
+                                        <li class="price_lineb">8 Databases</li>
+                                        <li class="price_linea">No Site Installation</li>
+                                    </ul>
+                                </div>
+                                <div class="row price_button">
+                                    <button class="btn btn-default btn-md">SIGN UP</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 fade-in three">
+                            <div class="price_column price_table text-center">
+                                <div class="row price_heading">
+                                    <div class="col-sm-12">
+                                        <h3>PLATINUM</h3>
+                                        <h1><b>£25</b> per Month</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <ul class="price_lines text-center">
+                                        <li class="price_linea">Unlimited Applications</li>
+                                        <li class="price_lineb">Unlimited Computers</li>
+                                        <li class="price_linea">Unlimited GB Storage</li>
+                                        <li class="price_lineb">Unlimited Month Support</li>
+                                        <li class="price_linea">Unlimited Website Access</li>
+                                        <li class="price_lineb">Unlimited Databases</li>
+                                        <li class="price_linea">Site Installation Included</li>
+                                    </ul>
+                                </div>
+                                <div class="row price_button">
+                                    <button class="btn btn-default btn-md">SIGN UP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-		</div>
-	</div>
+            <!-- Pricing Footer -->
+            <footer>
+                <div class="container custom-theme-bg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mainFooter">
+                                <p>Copyright &copy; 2017 Muhammad Ajij</p>
+                                <a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
-	<div id="cpage" class="mainHeader">
-			<div class="container custom-theme-bg">
-				<!--  Header Section-->
-				<div class="row">
-					<div class="col-md-3 col-xs-8">
-						<div class="title">
-							<img class="supportlogo2" src="images/s.png" alt="Logo 3">
-							<a href="index.html" class="land">
-								<p>SUPPORT SOLUTIONS</p>
-							</a>
-						</div>
-					</div>
+        </div>
+    </div>
 
-					<div class="col-md-9">
-						<nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse2">
+    <!-- Contact Us Page -->
+    <div id="cpage" class="mainHeader">
+        <div class="container custom-theme-bg">
+            <!--  Header Section-->
+            <div class="row">
+                <div class="col-md-3 col-xs-8">
+                    <div class="title">
+                        <img class="supportlogo2" src="images/s.png" alt="Logo 3">
+                        <a href="index.html" class="land">
+                            <p>SUPPORT SOLUTIONS</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-md-9">
+                    <nav class="navbar navbar-default custom-bg homepage-menu" role="navigation">
+                        <!-- Navigation whem collapsed -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse2">
 								  <span class="sr-only">Toggle navigation</span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								</button>
-							</div>
-							<div class="collapse navbar-collapse" id="demo-navbar-collapse2">
-								<ul class="nav navbar-nav">
-									<li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
-									<li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
-									<li ><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
-									<li class="active"><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
-								</ul>
+                        </div>
+                        <div class="collapse navbar-collapse" id="demo-navbar-collapse2">
+                            <ul class="nav navbar-nav">
+                                <li><a href="javascript:void(0);" class="home-tab"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+                                <li><a href="javascript:void(0);" class="portfolio-page"><i class="fa fa-picture-o fa-lg" aria-hidden="true"></i> Portfolio</a></li>
+                                <li><a href="javascript:void(0);" class="pricing-menu"><i class="fa fa-money fa-lg" aria-hidden="true"></i> Pricing</a></li>
+                                <li class="active"><a href="javascript:void(0);" class="contact-tab"><i class="fa fa-phone fa-lg"  aria-hidden="true"></i> Contact</a></li>
+                            </ul>
 
-								<form class="navbar-form customnavform navbar-left pull-right" role="search">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search">
-										<span class="input-group-btn">
+                            <form class="navbar-form customnavform navbar-left pull-right" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <span class="input-group-btn">
 										  <button type="submit" class="btn btn-default custom-search-button">Search</button>     
 										</span>
-									</div>
-								</form>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
 
-			<section id="banner-new" class="top-banner">
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slideshowdiv">
-								<img class="slideshow" src="images/tech3.jpg" alt="Slideshow 3"/>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+        <!-- Contact Us Header Image -->
+        <section id="banner-new" class="top-banner">
+            <div class="container custom-theme-bg">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slideshowdiv">
+                            <img class="slideshow" src="images/tech3.jpg" alt="Slideshow 3" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-			<section class="page-title">
-				<div class="container brdr-btm custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="page-title-new">
-								<h2>Contact</h2>
-								<span>We look forward from hearing from you.</span>
-							</div>
+        <section class="page-title">
+            <div class="container brdr-btm custom-theme-bg">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-title-new">
+                            <h2>Contact</h2>
+                            <span>We look forward from hearing from you.</span>
+                        </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="contact-new" class="contact-box">
-				<div class="container custom-theme-bg" id="cont">
-					<div class="row">
-							<div class ="col-md-6" >
-									<form action="#" id="cform" method="post" name="form">
-							
-										<input id="name" name="name" placeholder="Please Enter Your First Name" type="text">
-										<input id="sname" name="sname" placeholder="Please Enter Your Last Name" type="text">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-										<input id="email" name="email" placeholder="Please Enter Your Email" type="text">
-										<textarea id="msg" name="message" placeholder="How May We Help You?"></textarea>
-										<a href="javascript:%20validateForm()" onclick="myFunction()" id="submit">Send</a>
-									</form>
+        <section id="contact-new" class="contact-box">
+            <div class="container custom-theme-bg" id="cont">
+                <div class="row">
+                    <!-- Contact Us Form -->
+                    <div class="col-md-6">
+                        <form action="#" id="cform" method="post" name="form">
 
-						</div>	
-						<div class="col-md-6" id="Googlemaps"></div>
-					</div>
-				</div>
-			</section>
+                            <input id="name" name="name" placeholder="Please Enter Your First Name" type="text">
+                            <input id="sname" name="sname" placeholder="Please Enter Your Last Name" type="text">
 
-			<footer>
-				<div class="container custom-theme-bg">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="mainFooter">
-								<p>Copyright &copy; 2017 Muhammad Ajij</p>
-								<a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+                            <input id="email" name="email" placeholder="Please Enter Your Email" type="text">
+                            <textarea id="msg" name="message" placeholder="How May We Help You?"></textarea>
+                            <a href="javascript:%20validateForm()" onclick="myFunction()" id="submit">Send</a>
+                        </form>
 
-			<!-- About Section -->
-		</div>
-		
-		<!-- About Section -->
-	
+                    </div>
+                    <!-- Contact Us Google Map Location -->
+                    <div class="col-md-6" id="Googlemaps"></div>
+                </div>
+            </div>
+        </section>
 
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Plugin JavaScript -->
-	<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnNZcVhL7-2stCu58tbidkDQqEqifXt14&callback=initMap">
+        <!-- Contact Us footer -->
+        <footer>
+            <div class="container custom-theme-bg">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mainFooter">
+                            <p>Copyright &copy; 2017 Muhammad Ajij</p>
+                            <a class="scrollbackup" href=#mh> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- JavaScript Linkage -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnNZcVhL7-2stCu58tbidkDQqEqifXt14&callback=initMap">
     </script>
-	
-	<script src="js/javascript.js"></script>
+
+    <script src="js/javascript.js"></script>
 
 
 </body>

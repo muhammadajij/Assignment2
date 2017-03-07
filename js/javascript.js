@@ -1,5 +1,6 @@
 <!-- Muhammad Ajij - P13230501 -->
 
+// jQuery Funtion to show and hide aread of the website
 $(document).ready(function(){
 
     $("#mh").hide();
@@ -10,6 +11,7 @@ $(document).ready(function(){
     $("#cpage").hide();
     $("#portfoliopage").hide();
 
+    // When Enter site button clicked
     $(".link").click(function() {
       $("#mh").show();
       $(".mainContent").show();
@@ -20,7 +22,8 @@ $(document).ready(function(){
       $(".sidebars").show();
       $(".lheader").hide(1000);
     });
-	
+	 
+  // When pricing nav button clicked
 	$(".pricing-menu").click(function() {
       $("#ppage").show();
            $("#cpage").hide();
@@ -29,6 +32,7 @@ $(document).ready(function(){
      $("#mh").hide();
     });
 	
+  // When home nav button clicked
 	$(".home-tab").click(function() {
 		 $("#ppage").hide();
          $("#cpage").hide();
@@ -38,6 +42,7 @@ $(document).ready(function(){
 
 	});
 	
+  //When contact nav button clicked
 	$(".contact-tab").click(function() {
      $("#ppage").hide();
          $("#cpage").show();
@@ -47,6 +52,7 @@ $(document).ready(function(){
 
   });
 
+  //When portfolio nav button clicked
   $(".portfolio-page").click(function() {
      $("#ppage").hide();
      $("#cpage").hide();
@@ -59,10 +65,9 @@ $(document).ready(function(){
   });
 
 $(document).ready(function() {
-  // Add smooth scrolling to all links
+  // Add smooth scrolling icon in footer
   $(".scrollbackup").on('click', function() {
 
-    // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
@@ -71,7 +76,6 @@ $(document).ready(function() {
       var hash = this.hash;
 
       // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function() {
@@ -79,13 +83,14 @@ $(document).ready(function() {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    } 
   });
 
 
 
 });
 
+// Checks to see if all fields in the contact form are entered
 function validateForm() {
 
   var w = document.forms["form"]["name"].value;
@@ -100,7 +105,7 @@ function validateForm() {
 
 }
 
-//Attempted USE OF JSON
+//Attempted USE OF JSON to return name when contact form is sent
 function myFunction() {
 
   var nameval = document.getElementById("name").value;
@@ -117,7 +122,7 @@ function myFunction() {
 
 }
 
-//timestamp
+//Produces time stamp on landing page
 function time() {
   var today = new Date();
   var h = today.getHours();
@@ -134,22 +139,23 @@ function time() {
 function checkTime(i) {
   if (i < 10) {
     i = "0" + i
-  }; // add zero in front of numbers < 10
+  }; // adds zero in front of numbers
   return i;
 }
 
-
+// Swaps stylesheets
 function swapStyleSheet(sheet) {
 
   document.getElementById("light").setAttribute("href", sheet);
 
 }
 
+// Go back function
 function goBack() {
     window.history.back();
 }
 
-// Get the modal
+// Get the modals
 var modal = document.getElementById("frankyModal");
 var modal2 = document.getElementById("jeremyModal");
 var modal3 = document.getElementById("peterModal");
@@ -161,10 +167,8 @@ var image2 = document.getElementById("jeremy");
 var image3 = document.getElementById("peter");
 var image4 = document.getElementById("dave");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button modal opens
 image.onclick = function() {
     modal.style.display = "block"; //opens modal
 }
@@ -178,13 +182,7 @@ image4.onclick = function() {
     modal4.style.display = "block"; //opens modal
 }
 
-// span.onclick = function() {
-//         modal2.style.display = "none"; //hides modal 
-//         modal3.style.display = "none"; //hides modal
-//         modal4.style.display = "none"; //hides modal
-// }
-
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the modal, modal closes
 window.onclick = function(event) {
     if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4) {
         modal.style.display = "none"; //hides modal
@@ -194,6 +192,7 @@ window.onclick = function(event) {
     }
 }
 
+// Produces a map in contacts page
 function initMap() {
         var latlang = {lat: 52.6294673, lng: -1.1380354};
         var map = new google.maps.Map(document.getElementById("Googlemaps"), {
@@ -207,19 +206,22 @@ function initMap() {
         });
       }
 
+// Opens modal for portfolio
 function openModal() {
-  document.getElementById("myport").style.display = "block";
-  document.getElementById("fix").style.display = "none";
+  document.getElementById("myport").style.display = "block"; //opens modal
+  document.getElementById("fix").style.display = "none"; //hides searchbar
 }
 
+// Closes modal for portfolio
 function closeModal() {
-  document.getElementById("myport").style.display = "none";
-  document.getElementById("fix").style.display = "block";
+  document.getElementById("myport").style.display = "none"; //opens modal
+  document.getElementById("fix").style.display = "block"; //opens searchbar
 }
 
 var slideIndex = 1;
 showSlides(slideIndex);
 
+//All used to change slide index's within portfolio
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -230,13 +232,13 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides"); // Retrieves all images
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      slides[i].style.display = "none"; //opens specific image
   }
  
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block"; //closes specific image
 }
