@@ -141,12 +141,12 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 ### Tools
 
 * [Sublime Text](https://www.sublimetext.com) - Used to code HTML, CSS & Javascript aspects of the website.
-* [Pencil Project](http://pencil.evolus.vn) - Used to create the wire
+* [Pencil Project](http://pencil.evolus.vn) - Used to create the wireframe sketches of the website.
 * [Haroopad](http://pad.haroopress.com/user.html) - Used to create the Readme file along side the Design files.
 
 ### Frameworks
 
-* [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar.
+* [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar and other aspects of the website.
 * [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
 * [Bootstrap](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
 
