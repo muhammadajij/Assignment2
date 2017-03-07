@@ -87,19 +87,19 @@ The following will cover the features of the website that were constantly tested
 
 The details below indicate what must be acheieved by the website design and functionality. These are the requirements that will be verfied.
 
-##### Functionality Testing
+#### Functionality Testing
 
 * Links work accordingly
 * Website validate accordingly
 * Error messages appear correctly
 
-##### Usability Testing
+#### Usability Testing
 
 * Website should be easy to use
 * Main menu should be provided on each page
 * Content should be logical and easy to understand
 
-##### Compatibility Testing
+#### Compatibility Testing
 
 * Functions on multiple browsers
 * Functions on multiple operating systems
@@ -114,41 +114,41 @@ _ _ _
 
 ### Results
 
-The following is the results for each area tested, please click on the 
+The following is the results for each area tested, please click on "Result" to see each test in more detail:
 
-| Functionality Testing | Result					  |
+
+| Functionality Testing | [Result](testing/ftest.md)					  |
 | --------------------- |:---------------------------:|
-|    Test 1  			|  [Fail](http://)  					  |
-|    Test 2 			|  [Fail  ](http://)					  |
-|    Test 3  			|  [Pass](http://)						  |
+|    Test 1  			|  Fail					  |
+|    Test 2 			|  Pass						  |
 
-| Usability Testing			   | Result	   		     		 |
+| Usability Testing			   | [Result](testing/utest.md)	   		     		 |
 | ---------------------------- |:---------------------------:|
-|    Test 1  				   |  [Fail](http://)                     	 |
-|    Test 2                    |  [Fail](http://)                       |
-|    Test 3                    |  [Pass](http://)                       |
+|    Test 1  				   |  Fail                   	 |
+|    Test 2                    |  Fail                      |
+|    Test 3                    |  Pass                       |
 
 
-| Compatability Testing		   | Result			     		 |
+| Compatability Testing		   | [Result](testing/ctest.md)			     		 |
 | ---------------------------- |:---------------------------:|
-|    Test 1                    |  [Fail](http://)                       |
-|    Test 2                    |  [Pass](http://)                       |
+|    Test 1                    |  Fail                      |
+|    Test 2                    |  Pass                       |
 
 ## Deployment
 
 In regards to deployement, the website is currently being hosted by 000Webhost. They are a free web hosting company and include free domain hosting, therefore allowing me to host my website on the following url:
 
-[Support Solutions](http://)
+[http://www.supportsolutions.webege.com](http://)
 
 ## References
 
-#### Tools
+### Tools
 
 * [Sublime Text](https://www.sublimetext.com) - Used to code HTML, CSS & Javascript aspects of the website.
 * [Pencil Project](http://pencil.evolus.vn) - Used to create the wire
 * [Haroopad](http://pad.haroopress.com/user.html) - Used to create the Readme file along side the Design files.
 
-#### Frameworks
+### Frameworks
 
 * [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar.
 * [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
