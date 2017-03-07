@@ -150,6 +150,16 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 * [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
 * [Bootstrap](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
 
+### Websites
+
+* [Simple Share Buttons](https://simplesharebuttons.com) - Used for facebook and twitter logos for landing page.
+* [The Guardian](https://www.theguardian.com) - Used for staff avatar images for home page.
+* [Marketers Blackbox](http://marketersblackbook.com/wp-content/uploads/2011/11/consulting.jpg) - Used for first slideshow picture on home page.
+* [Sinoshines](http://www.sinoshines.com/uploadfile/image/2013031119320560.jpg) - Used for second slideshow picture on home page.
+* [Icons Place](http://www.iconsplace.com) - Used for the website main icon image, in both black and white colour.
+* [Markezing](https://markezing.com/wp-content/uploads/2015/10/people_and_technology-1400x570.jpg
+) - Used for header image, different images for each web page.
+
 ## Author
 
 **Muhammad Ajij - P13230501 - De Montfort University - P13230501@my365.dmu.ac.uk**
