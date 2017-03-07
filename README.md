@@ -106,7 +106,6 @@ The details below indicate what must be acheieved by the website design and func
 * Mobile browsing functions accordingly
 
 
-
 _ _ _
 
 
