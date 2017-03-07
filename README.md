@@ -18,26 +18,52 @@ Please click the below links to view details of the different constructred WireF
 
 The following will elaborate on one HTML feature used, one CSS feature used and also one Javascript feature used.
 
+++Javascript
+++
+```javascript
+function swapStyleSheet(sheet) {
+
+  document.getElementById("light").setAttribute("href", sheet);
+
+}
+```
+
+++ HTML++
+
+```html
+<div id="frankyModal" class="modal">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<h2>Franky Boyle</h2>
+		</div>
+        <div class="modal-body">
+			<p>Some text in the Modal Body</p>
+			<p>Some other text...</p>
+	    </div>
+</div>
+```
+
+
 ## Testing
 
 The following will cover the features of the website that were constantly tested
 
 ### Requirements
 
-** Functionality Testing  **
+++Functionality Testing++
 
 * Links work accordingly
 * Website validate accordingly
 * Error messages appear correctly
 
-** Usability Testing **
-
+++Usability Testing
+++
 * Website should be easy to use
 * Main menu should be provided on each page
 * Content should be logical and easy to understand
 
-** Compatibility Testing **
-
+++Compatibility Testing
+++
 * Functions on multiple browsers
 * Functions on multiple operating systems
 * Mobile browsing functions accordinly
@@ -54,7 +80,7 @@ The following is the results for each area tested, please click on the
 |    Test 2 			|  [Fail  ](http://)					  |
 |    Test 3  			|  [Pass](http://)						  |
 
-| Usability Testing			   | Result			     		 |
+| Usability Testing			   | Result	   		     		 |
 | ---------------------------- |:---------------------------:|
 |    Test 1  				   |  [Fail](http://)                     	 |
 |    Test 2                    |  [Fail](http://)                       |
