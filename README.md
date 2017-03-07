@@ -146,9 +146,10 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 
 ### Frameworks
 
-* [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar and other aspects of the website.
-* [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
-* [Bootstrap](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
+* [Font Awesome CSS](http://fontawesome.io) - Used to add icons to the navigation bar and other aspects of the website.
+* [jQuery CSS](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
+* [Bootstrap CSS & JS](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
+* [Google Maps API](https://developers.google.com/maps) - Used to produce Google Map within contact page.
 
 ### Websites
 
