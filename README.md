@@ -14,7 +14,7 @@ Please click the below links to view details of the different constructred WireF
 1. [Initial Designs](WireFrame-Sketches/Style-1/Style-1.md)
 2. [Final Designs](WireFrame-Sketches/Style-2/Style-2.md)
 
-## Source Code
+## Example Source Code
 
 The following will elaborate on one HTML feature used, one CSS feature used and also one Javascript feature used.
 
@@ -115,17 +115,17 @@ _ _ _
 The following is the results for each area tested, please click on "Result" to see each test in more detail:
 
 
-| Functionality Testing | [Result](testing/ftest.md)					  |
+| Functionality Testing | [Result](testing/ftest.md)|
 | --------------------- |:---------------------------:|
 |    Test 1  			|  Fail					  |
 |    Test 2 			|  Pass						  |
 
-| Usability Testing			   | [Result](testing/utest.md)	   		     		 |
+| Usability Testing			   | [Result](testing/utest.md)	  |
 | ---------------------------- |:---------------------------:|
 |    Test 1                    |  Pass                       |
 
 
-| Compatability Testing		   | [Result](testing/ctest.md)			     		 |
+| Compatability Testing		   | [Result](testing/ctest.md)	|
 | ---------------------------- |:---------------------------:|
 |    Test 1                    |  Fail                      |
 |    Test 2                    |  Pass                       |
@@ -149,7 +149,6 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 * [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar.
 * [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
 * [Bootstrap](http://getbootstrap.com) - Used to grid certain areas of the website, as well as making it responsive.
-
 
 ## Author
 
