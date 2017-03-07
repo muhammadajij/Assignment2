@@ -18,7 +18,7 @@ Please click the below links to view details of the different constructred WireF
 
 The following will elaborate on one HTML feature used, one CSS feature used and also one Javascript feature used.
 
-#### HTML
+### HTML
 
 ```html
 <div id="frankyModal" class="modal">
@@ -38,7 +38,7 @@ This is an example of html code that generated a pop up modal box with specific 
 - - -
 
 
-#### CSS
+### CSS
 
 ```css
 #ppage {
@@ -62,7 +62,7 @@ This is an example of css code allowing sections of the SPA website to be hidden
 - - -
 
 
-#### Javascript
+### Javascript
 
 ```javascript
 function swapStyleSheet(sheet) {
@@ -108,7 +108,7 @@ The details below indicate what must be acheieved by the website design and func
 
 
 
-#### Results
+### Results
 
 The following is the results for each area tested, please click on the 
 
