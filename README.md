@@ -5,7 +5,7 @@ The following will introduce the topic the website was built on, covering the de
 
 ## Introduction
 
-The website produced is a e-commerce website who would supply other comapnies support applications, for example tools to aid communication from one person to another withou using the telephone. The idea came from CCTV systems and how they support big customers. If the customer happens to be a retail company and need help with their system, they would just open the application and send a support ticket. This application would only be available on the website created, aswell as the price plans, a portfolio and even a contact page, all availeble for current customers or new customers.
+The website produced is a e-commerce website who would supply other comapnies support applications, for example tools to aid communication from one person to another without using the telephone. The idea came from CCTV systems and how they support big customers. If the customer happens to be a retail company and need help with their system, they would just open the application and send a support ticket. This application would only be available on the website created, aswell as the price plans, a portfolio and even a contact page, all availeble for current customers or new customers.
 
 ## Designs
 
