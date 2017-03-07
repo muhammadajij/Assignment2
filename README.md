@@ -103,8 +103,7 @@ The details below indicate what must be acheieved by the website design and func
 
 * Functions on multiple browsers
 * Functions on multiple operating systems
-* Mobile browsing functions accordinly
-* Printing options
+* Mobile browsing functions accordingly
 
 
 
@@ -124,9 +123,7 @@ The following is the results for each area tested, please click on "Result" to s
 
 | Usability Testing			   | [Result](testing/utest.md)	   		     		 |
 | ---------------------------- |:---------------------------:|
-|    Test 1  				   |  Fail                   	 |
-|    Test 2                    |  Fail                      |
-|    Test 3                    |  Pass                       |
+|    Test 1                    |  Pass                       |
 
 
 | Compatability Testing		   | [Result](testing/ctest.md)			     		 |

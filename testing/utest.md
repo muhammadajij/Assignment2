@@ -1,23 +1,17 @@
 ## Usability Testing
 
-The following will cover the test procedures that took place to verify the requirements for functionality.
+The following will cover the test procedures that took place to verify the requirements for usability.
 
 [Back](../README.md)
 
 ### Test 1
 
-As you can see in the below image the home tab is not highlighted, leaving the user unaware of what page they are on. This reoccured on all pages.
+As you can see in the below images the navigation and search bar are always visibile in all pages allowing the user to swiftly browse through pages at ease, the content also being visible and asthetically pleasing. This therefore passed in the first test
 
 ![](utest1.png)
+![](utest1b.png)
+![](utest1d.png)
+![](utest1c.png)
 
-
-_ _ _
-
-
-### Test 2
-
-The above worked as you can now see from the below image the home tab is now highlighted in white, however the same class naming must be repeated on each page of the website.
-
-![](utest2.png)
 
 [Back](../README.md)
