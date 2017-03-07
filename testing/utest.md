@@ -2,7 +2,7 @@
 
 The following will cover the test procedures that took place to verify the requirements for functionality.
 
-[Back](../../README.md)
+[Back](../README.md)
 
 ### Test 1
 
@@ -20,4 +20,4 @@ The above worked as you can now see from the below image the home tab is now hig
 
 ![](utest2.png)
 
-[Back](../../README.md)
+[Back](../README.md)
