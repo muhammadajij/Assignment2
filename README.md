@@ -134,7 +134,8 @@ The following is the results for each area tested, please click on "Result" to s
 
 In regards to deployement, the website is currently being hosted by 000Webhost. They are a free web hosting company and include free domain hosting, therefore allowing me to host my website on the following url:
 
-[http://www.supportsolutions.webege.com](http://)
+[http://support-solutions-majij.webege.com](http://support-solutions-majij.webege.com
+)
 
 ## References
 
