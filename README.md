@@ -18,17 +18,7 @@ Please click the below links to view details of the different constructred WireF
 
 The following will elaborate on one HTML feature used, one CSS feature used and also one Javascript feature used.
 
-++Javascript
-++
-```javascript
-function swapStyleSheet(sheet) {
-
-  document.getElementById("light").setAttribute("href", sheet);
-
-}
-```
-
-++ HTML++
+#### HTML
 
 ```html
 <div id="frankyModal" class="modal">
@@ -43,34 +33,82 @@ function swapStyleSheet(sheet) {
 </div>
 ```
 
+This is an example of html code that generated a pop up modal box with specific information, it consists of a header and body, in addition a footer could also be implemented but was not needed for this feature of the website.
+
+- - -
+
+
+#### CSS
+
+```css
+#ppage {
+  display: none;
+}
+
+#portfoliopage {
+  display: none;
+}
+
+#cpage {
+  display: none;
+}
+
+#mh {
+  display: none;
+}
+```
+This is an example of css code allowing sections of the SPA website to be hidden, this led to only the landing page to be visible when loading the website.
+
+- - -
+
+
+#### Javascript
+
+```javascript
+function swapStyleSheet(sheet) {
+
+  document.getElementById("light").setAttribute("href", sheet);
+
+}
+```
+This is an example of javascript code that allowed spontaneous change of stylesheets. It provides the user some form of customisability.
+
+
+
 
 ## Testing
 
-The following will cover the features of the website that were constantly tested
+The following will cover the features of the website that were constantly tested as well as providing results for each test constructed.
 
 ### Requirements
 
-++Functionality Testing++
+The details below indicate what must be acheieved by the website design and functionality. These are the requirements that will be verfied.
+
+##### Functionality Testing
 
 * Links work accordingly
 * Website validate accordingly
 * Error messages appear correctly
 
-++Usability Testing
-++
+##### Usability Testing
+
 * Website should be easy to use
 * Main menu should be provided on each page
 * Content should be logical and easy to understand
 
-++Compatibility Testing
-++
+##### Compatibility Testing
+
 * Functions on multiple browsers
 * Functions on multiple operating systems
 * Mobile browsing functions accordinly
 * Printing options
 
 
-### Results
+- - -
+
+
+
+#### Results
 
 The following is the results for each area tested, please click on the 
 
@@ -100,13 +138,13 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 
 ## References
 
-### Tools
+#### Tools
 
 * [Sublime Text](https://www.sublimetext.com) - Used to code HTML, CSS & Javascript aspects of the website.
 * [Pencil Project](http://pencil.evolus.vn) - Used to create the wire
 * [Haroopad](http://pad.haroopress.com/user.html) - Used to create the Readme file along side the Design files.
 
-### Frameworks
+#### Frameworks
 
 * [Font Awesome](http://fontawesome.io) - Used to add icons to the navigation bar.
 * [jQuery](https://jquery.com) - Used to hide and show certain parts of the website, as well as enabling a button to scroll back to the top of the website.
@@ -115,7 +153,11 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 
 ## Author
 
-* **Muhammad Ajij - P13230501 - De Montfort University**
+**Muhammad Ajij**
+**De Montfort University**
+**P13230501**
+** P13230501@my365.dmu.ac.uk**
+
 
 ## Acknowledgments
 
