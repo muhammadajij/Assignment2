@@ -137,6 +137,15 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 [http://support-solutions-majij.webege.com](http://support-solutions-majij.webege.com
 )
 
+## Summary
+
+To summarise the website it will relate to the PARC design, the following will cover each aspect of PARC:
+
+* Proximity: Related items should be grouped close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
+* Alignment: Every visual element on a page has some kind of connection to at least one other element. Everything organised correctly.
+* Repetition: Common elements, such as colors, graphics, layout styles is repeated to give a consistent look and feel to every page.
+* Contrast: The idea of contrast is to make different elements view differently, such as active pages within navigation bar. Therefore contrast is powerful visual design tools.
+
 ## References
 
 ### Tools
@@ -162,14 +171,6 @@ In regards to deployement, the website is currently being hosted by 000Webhost. 
 * [Markezing](https://markezing.com/wp-content/uploads/2015/10/people_and_technology-1400x570.jpg
 ) - Used for header image, different images for each web page.
 
-## Summary
-
-To summarise the website it will relate to the PARC design, the following will cover each aspect of PARC:
-
-* Proximity: Related items should be grouped close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
-* Alignment: Every visual element on a page has some kind of connection to at least one other element. Everything organised correctly.
-* Repetition: Common elements, such as colors, graphics, layout styles is repeated to give a consistent look and feel to every page.
-* Contrast: The idea of contrast is to make different elements view differently, such as active pages within navigation bar. Therefore contrast is powerful visual design tools.
 
 ## Author
 
