@@ -90,23 +90,32 @@ $(document).ready(function() {
 
 });
 
-// Checks to see if all fields in the contact form are entered
-function validateForm() {
+var counter = 0;
 
-  var w = document.forms["form"]["name"].value;
-  var x = document.forms["form"]["sname"].value;
-  var y = document.forms["form"]["email"].value;
-  var z = document.forms["form"]["message"].value;
+// Checks to see if all fields have been filled out
+function validateFormtwo() {
+  counter = 0
 
-  if (x == "" || w == "" || y == "" || Z == "") {
+  var w = document.forms["cform"]["name"].value;
+  var s = document.forms["cform"]["sname"].value;
+  var y = document.forms["cform"]["email"].value;
+  var z = document.forms["cform"]["message"].value;
+
+  if (s == "" || w == "" || y == "" || z == "") {
     alert("All Fields Must Be Filled Out");
     return false;
+  }
+
+  else {
+    counter = 1;
   }
 
 }
 
 //Attempted USE OF JSON to return name when contact form is sent
 function myFunction() {
+
+  if (counter == 1){
 
   var nameval = document.getElementById("name").value;
   var snameval = document.getElementById("sname").value;
@@ -118,8 +127,24 @@ function myFunction() {
   // var x = obj.name;
   // var y = obj.surname;
 
-  document.getElementById("demo").innerHTML = alert("Thank You " + nameval + " " + snameval + " For Your Message Please Close The Contact Form");
+  document.getElementById("demo").innerHTML = alert("Thank You " + nameval + " " + snameval + " For Your Message");
+  
+  }
+}
 
+// Checks to see if an email has been entered
+function validateForm() {
+    counter = 0;
+    var x = document.forms["cform"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Please Enter A valid Email Address");
+        return false;
+    }
+    else {
+      counter = 1;
+    }
 }
 
 //Produces time stamp on landing page
