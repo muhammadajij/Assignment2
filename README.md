@@ -146,6 +146,8 @@ To summarise the website it will relate to the PARC design, the following will c
 * Repetition: Common elements, such as colors, graphics, layout styles is repeated to give a consistent look and feel to every page.
 * Contrast: The idea of contrast is to make different elements view differently, such as active pages within navigation bar. Therefore contrast is powerful visual design tools.
 
+However, for the future many improvements could have been made, for example making the search bar find details within the website instead of it being a dummy feature. The search bar could have also been displayed better when resized. In addition another improvement would be within the contacts page, here the form could be activated to send emails with the use of php.
+
 ## References
 
 ### Tools

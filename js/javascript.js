@@ -112,7 +112,7 @@ function validateFormtwo() {
 
 }
 
-//Attempted USE OF JSON to return name when contact form is sent
+//Attempted USE OF JSON to return name when contact form is sent but didnt work
 function myFunction() {
 
   if (counter == 1){
