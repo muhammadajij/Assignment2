@@ -22,14 +22,16 @@ The following will elaborate on one HTML feature used, one CSS feature used and 
 
 ```html
 <div id="frankyModal" class="modal">
-	  <div class="modal-content">
-		<div class="modal-header">
-			<h2>Franky Boyle</h2>
-		</div>
-        <div class="modal-body">
-			<p>Some text in the Modal Body</p>
-			<p>Some other text...</p>
-	    </div>
+   <!-- Modal content -->
+    <div class="modal-content">
+     <div class="modal-header">
+      <h2>Franky Boyle</h2>
+     </div>
+   		 <div class="modal-body">
+     		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+      		 <h6>Click The Background To Close</h6>
+   		 </div>
+     </div>
 </div>
 ```
 
