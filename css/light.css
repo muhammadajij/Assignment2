@@ -50,6 +50,14 @@ h1.hone {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.mySlides img {
+  width: 100%;
+}
+
+.column2 img {
+  width: 100%;
+}
+
 /* Modal Content */
 .modal-content {
     position: relative;
