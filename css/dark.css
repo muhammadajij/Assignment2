@@ -49,6 +49,14 @@ body {
     animation-duration: 1s
 }
 
+.mySlides img {
+  width: 100%;
+}
+
+.column2 img {
+  width: 100%;
+}
+
 /* Add Animation */
 @-webkit-keyframes animate {
     from {top:-300px; opacity:0} 
